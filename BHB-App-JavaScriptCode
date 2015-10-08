@@ -1,0 +1,34 @@
+console.log("Welcome to BHB: The BlockHeads Book");
+console.log("By Soderminal");
+console.log("This is a simple JavaScript Application dedicated to one of my favorite games of all time: The BlockHeads!");
+console.log("This app just contains some tips, information, help, and more!");
+console.log("I hope that you like it! Thank You for checking this app out, whose source code you can view on GitHub!");
+console.log("Check out our website at soderminal.weebly.com, and our Tumblr at @Soderminal!");
+
+var EnterTF = false;
+var TipsTF = false;
+var InformationTF = false;
+var HelpTF = false;
+
+prompt("Welcome to BHB! What do you want to do? You can either (type) ENTER into this app or you can (type) QUIT this app.");
+if (prompt = "ENTER".lowercase) {
+	console.log("Okay! Sweet! Now let's enter BHB: The BlockHeads Book!");
+	var EnterTF = true;
+} else {
+	console.log("Okay, that's cool. I hope you have a great day! Bye!");
+	var EnterTF = false;
+}
+if(EnterTF = true){
+	prompt("Welcome to the Book! You are now inside of this app! What do you want to do now? (You can either get TIPS about playing The BlockHeads, get INFORMATION about stuff in The BlockHeads like items and the BlockHeads themselves, and get HELP about The BlockHeads by seeing the FAQ.");
+} if(prompt = "TIPS".lowercase) {
+    console.log("Okay sweet! Now on to the TIPS part of BHB: The BlockHeads Book! Let's go!");
+    var TipsTF = true;
+} if(prompt = "INFORMATION".lowercase) {
+	console.log("Okay sweet! Now on to the INFORMATION part of BHB: The BlockHeads Book! Let's go!");
+	var InformationTF = true;
+} if(prompt = "HELP".lowercase) {
+	console.log("Okay sweet! Now on to the INFORMATION part of BHB: The BlockHeads Book! Let's go!");
+	var HelpTF = true;
+} else {
+	console.log("You didn't pick one of the three choices! You have to type in either TIPS, INFORMATION, or HELP to get the app to go forward! Try it again! Thank You!");
+}
